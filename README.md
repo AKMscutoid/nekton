@@ -1,14 +1,14 @@
 # Mr Miller's Hugo Theme
 
-A lightweight hugo theme used on [my website](https://austinmiller.pro).
+A lightweight hugo theme without JavaScript used on [my website](https://austinmiller.pro).
 ## Configuration
 
 ```sh
 hugo new site new-site
 cd new-site
-git clone https://github.com/127Gar/shulgi themes/shulgi
-echo "theme = 'shulgi'" >> config.toml
-cp themes/shulgi/static/style.css static/
+git clone https://github.com/AKMscutoid/nekton themes/nekton
+echo "theme = 'nekton'" >> config.toml
+cp themes/nekton/static/style.css static/
 ```
 
 ## Notes
