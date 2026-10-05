@@ -1,6 +1,6 @@
 # Mr Miller's Hugo Theme
 
-A lightweight hugo theme used on [my website](https://caviomorpha.dev). Named after [the famed Sumerian King](https://www.worldhistory.org/Shulgi_of_Ur/).
+A lightweight hugo theme used on [my website](https://austinmiller.pro).
 ## Configuration
 
 ```sh

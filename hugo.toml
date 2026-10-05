@@ -1,0 +1,37 @@
+baseURL = "https://austinmiller.pro/"
+locale = 'en-gb-oxendict'
+title = "Austin Miller's site"
+theme = 'nojs'
+security.allowContent = ['.*']
+enableInlineShortcodes = true
+sectionPagesMenu = 'main'
+
+[menus]
+  [[menus.main]]
+    name = 'Home'
+    pageRef = '/'
+    weight = 1
+
+  [[menus.main]]
+    name = 'Posts'
+    pageRef = '/posts'
+    weight = 2
+
+  [[menus.main]]
+    name = 'Tags'
+    pageRef = '/tags'
+    weight = 3
+
+[params]
+  # "relatedtext" is the text that appears above the tag list at the bottom of pages.
+  relatedtext = "Related"
+  favicon = "/favicon.ico"
+
+  #list items
+  datesinlist = true
+  authorsinlist = true
+
+  #footer items
+  nextprev = true
+  taglist = true
+  showrss = true

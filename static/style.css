@@ -164,3 +164,31 @@ footer {
     font-style: bold;
     font-display: swap;
 }
+
+/* Main menu */
+#menu ul,
+nav ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Menu items */
+#menu li,
+nav li {
+    display: block;
+    margin: 0 1rem 0 0;
+    padding: 0;
+}
+
+/* Links */
+#menu a,
+nav a {
+    display: block;
+    white-space: nowrap;
+}

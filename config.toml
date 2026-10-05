@@ -1,5 +1,5 @@
-title = "Website Name"
-baseURL = 'https://example.org'
+title = "Austin Miller's personal website"
+baseURL = "https://austinmiller.pro/"
 languageCode = 'en-gb-oxendict'
 
 [params]
@@ -15,3 +15,4 @@ languageCode = 'en-gb-oxendict'
   nextprev = true
   taglist = true
   showrss = true
+
